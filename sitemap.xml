@@ -10,33 +10,9 @@
   <url>
     <loc>https://example.com/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc></loc><lastmod>2022-11-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/publication-type/1/</loc><lastmod>2022-11-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/tag/adversarial-ml/</loc><lastmod>2022-11-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-11-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-11-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/tag/multimodal-representation/</loc><lastmod>2022-11-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/publication/example/2022_nicgslowdown/</loc><lastmod>2022-11-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/publication_types/</loc><lastmod>2022-11-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/publication/</loc><lastmod>2022-11-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-11-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://example.com/tags/</loc><lastmod>2022-11-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-11-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-11-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://example.com/tag/academic/</loc><lastmod>2022-04-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://example.com/post/getting-started/icse2022_volunteer/</loc><lastmod>2022-04-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://example.com/categories/</loc><lastmod>2022-04-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -44,7 +20,31 @@
   <url>
     <loc>https://example.com/category/publication/</loc><lastmod>2022-04-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://example.com/post/getting-started/icse2022_volunteer/</loc><lastmod>2022-04-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://example.com/tags/</loc><lastmod>2022-04-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc></loc><lastmod>2022-03-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://example.com/publication-type/1/</loc><lastmod>2022-03-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://example.com/tag/adversarial-ml/</loc><lastmod>2022-03-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc></loc><lastmod>2022-03-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc></loc><lastmod>2022-03-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://example.com/tag/multimodal-representation/</loc><lastmod>2022-03-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://example.com/publication/example/2022_nicgslowdown/</loc><lastmod>2022-03-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://example.com/publication_types/</loc><lastmod>2022-03-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://example.com/publication/</loc><lastmod>2022-03-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc></loc><lastmod>2022-03-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc></loc><lastmod>2022-03-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc></loc><lastmod>2022-03-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://example.com/post/getting-started/nicgslowdown/</loc><lastmod>2022-03-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -78,11 +78,17 @@
   <url>
     <loc>https://example.com/project/denas/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://example.com/project/adnn/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://example.com/aaa/embedding/2019_2_embedding/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://example.com/tag/deep-learning/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://example.com/tag/demo/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://example.com/tag/dnns-testing/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://example.com/tag/edge-intelligence/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://example.com/aaa/adnn/2022_2_adnn/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
