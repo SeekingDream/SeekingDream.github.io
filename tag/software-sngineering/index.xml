@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software Sngineering | Academic</title>
-    <link>https://example.com/tag/software-sngineering/</link>
-      <atom:link href="https://example.com/tag/software-sngineering/index.xml" rel="self" type="application/rss+xml" />
+    <title>Software Sngineering | Simin Chen</title>
+    <link>https://chensimin.site/tag/software-sngineering/</link>
+      <atom:link href="https://chensimin.site/tag/software-sngineering/index.xml" rel="self" type="application/rss+xml" />
     <description>Software Sngineering</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://chensimin.site/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Software Sngineering</title>
-      <link>https://example.com/tag/software-sngineering/</link>
+      <link>https://chensimin.site/tag/software-sngineering/</link>
     </image>
     
     <item>
       <title>DENAS: automated rule generation by knowledge extraction from neural networks</title>
-      <link>https://example.com/publication/example/2020_fse_denas/</link>
+      <link>https://chensimin.site/publication/example/2020_fse_denas/</link>
       <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/example/2020_fse_denas/</guid>
+      <guid>https://chensimin.site/publication/example/2020_fse_denas/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
