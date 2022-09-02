@@ -77,10 +77,10 @@
   
     
   
-  <meta name="description" content="Neural Machine Translation (NMT) systems have received much recent attention due to their human-level accuracy. While existing works mostly focus on either improving accuracy or testing accuracy robustness, the computation efficiency of NMT systems, which is of paramount importance due to often vast translation demands and real-time requirements, has surprisingly received little attention. In this paper, we make the first attempt in understanding and testing potential computation efficiency robustness in state-of-the-art NMT systems. By analyzing the working mechanism and implementation of 1455 publicly-accessible NMT systems, we observe a fundamental property that could be manipulated in an adversarial manner to significantly reduce computation efficiency. An interesting observation is that the computation efficiency of NMT systems is determined by the output length instead of the input, where the output length depends on two factors i.e., an often sufficiently large yet pessimistic pre-configured threshold controlling the max number of iterations, and a runtime generated end of sentence (EOS) token. Our key motivation is to generate test inputs that could sufficiently delay the generation of EOS such that NMT systems would have to go through enough iterations to satisfy the pre-configured threshold. We present NMTSloth which develops a gradient-guided technique that searches for a minimal and unnoticeable perturbation at character-level, token-level, and structure-level, which sufficiently delay the appearance of EOS and force these inputs to reach the naturally-unreachable threshold. To demonstrate the effectiveness of NMTSloth, we conduct a systematic evaluation on three public-available NMT systems. Experimental results show that NMTSloth can increase NMT systems&#39; response latency and energy consumption by 85% to 3153% and 86% to 3052%, respectively, by perturbing just one to three tokens in any input sentences." />
+  <meta name="description" content="Today, an increasing number of Adaptive Deep Neural Networks (AdNNs) are being used to make decisions on resource-constrained embedded devices. We observe that, similar to traditional software, redundant computations exist in AdNNs, resulting in considerable performance degradation. The performance degradation in AdNNs is dependent on the input workloads, and is referred to as input-dependent performance bottlenecks (IDPBs). To ensure an AdNN satisfies the performance requirements of real-time applications, it is essential to conduct performance testing to detect IDPBs in the AdNN.  Existing neural network testing methods are primarily concerned with correctness testing, which does not involve performance testing. To fill this gap, we propose \tool, a scalable approach to generate test samples to detect the IDPB of AdNNs. We first demonstrate how the problem of generating performance test samples detecting IDPBs can be formulated as an optimization problem. Following that, we demonstrate how tool efficiently handles the optimization problem by learning and estimating the distribution of AdNNs&#39; computational consumption. We evaluate \tool on three widely used datasets against five popular AdNN models. The results show that \tool generates test samples that cause more severe performance degradation~(FLOPs increase up to 552\%). Furthermore, \tool is substantially more efficient than the baseline methods in terms of generating test inputs (runtime overhead only 6–10 milliseconds)." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://chensimin.site/publication/example/2022_fse_-nmtsloth/" />
+  <link rel="alternate" hreflang="en-us" href="https://chensimin.site/publication/example/2022_ase_-deepperform/" />
 
   
   
@@ -282,7 +282,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://chensimin.site/publication/example/2022_fse_-nmtsloth/" />
+  <link rel="canonical" href="https://chensimin.site/publication/example/2022_ase_-deepperform/" />
 
   
   
@@ -308,18 +308,18 @@
     <meta property="twitter:creator" content="@wowchemy" />
   
   <meta property="og:site_name" content="Simin Chen" />
-  <meta property="og:url" content="https://chensimin.site/publication/example/2022_fse_-nmtsloth/" />
-  <meta property="og:title" content="NMTSloth: Understanding and Testing Efficiency Degradation of Neural Machine Translation Systems | Simin Chen" />
-  <meta property="og:description" content="Neural Machine Translation (NMT) systems have received much recent attention due to their human-level accuracy. While existing works mostly focus on either improving accuracy or testing accuracy robustness, the computation efficiency of NMT systems, which is of paramount importance due to often vast translation demands and real-time requirements, has surprisingly received little attention. In this paper, we make the first attempt in understanding and testing potential computation efficiency robustness in state-of-the-art NMT systems. By analyzing the working mechanism and implementation of 1455 publicly-accessible NMT systems, we observe a fundamental property that could be manipulated in an adversarial manner to significantly reduce computation efficiency. An interesting observation is that the computation efficiency of NMT systems is determined by the output length instead of the input, where the output length depends on two factors i.e., an often sufficiently large yet pessimistic pre-configured threshold controlling the max number of iterations, and a runtime generated end of sentence (EOS) token. Our key motivation is to generate test inputs that could sufficiently delay the generation of EOS such that NMT systems would have to go through enough iterations to satisfy the pre-configured threshold. We present NMTSloth which develops a gradient-guided technique that searches for a minimal and unnoticeable perturbation at character-level, token-level, and structure-level, which sufficiently delay the appearance of EOS and force these inputs to reach the naturally-unreachable threshold. To demonstrate the effectiveness of NMTSloth, we conduct a systematic evaluation on three public-available NMT systems. Experimental results show that NMTSloth can increase NMT systems&#39; response latency and energy consumption by 85% to 3153% and 86% to 3052%, respectively, by perturbing just one to three tokens in any input sentences." /><meta property="og:image" content="https://chensimin.site/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://chensimin.site/publication/example/2022_ase_-deepperform/" />
+  <meta property="og:title" content="DeepPerform: An Efficient Approach for Performance Testing of Resource-Constrained Neural Networks | Simin Chen" />
+  <meta property="og:description" content="Today, an increasing number of Adaptive Deep Neural Networks (AdNNs) are being used to make decisions on resource-constrained embedded devices. We observe that, similar to traditional software, redundant computations exist in AdNNs, resulting in considerable performance degradation. The performance degradation in AdNNs is dependent on the input workloads, and is referred to as input-dependent performance bottlenecks (IDPBs). To ensure an AdNN satisfies the performance requirements of real-time applications, it is essential to conduct performance testing to detect IDPBs in the AdNN.  Existing neural network testing methods are primarily concerned with correctness testing, which does not involve performance testing. To fill this gap, we propose \tool, a scalable approach to generate test samples to detect the IDPB of AdNNs. We first demonstrate how the problem of generating performance test samples detecting IDPBs can be formulated as an optimization problem. Following that, we demonstrate how tool efficiently handles the optimization problem by learning and estimating the distribution of AdNNs&#39; computational consumption. We evaluate \tool on three widely used datasets against five popular AdNN models. The results show that \tool generates test samples that cause more severe performance degradation~(FLOPs increase up to 552\%). Furthermore, \tool is substantially more efficient than the baseline methods in terms of generating test inputs (runtime overhead only 6–10 milliseconds)." /><meta property="og:image" content="https://chensimin.site/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://chensimin.site/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2020-06-14T00:00:00&#43;00:00"
+        content="2022-09-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2022-06-14T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-08-30T00:00:00&#43;00:00">
   
 
   
@@ -341,12 +341,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://chensimin.site/publication/example/2022_fse_-nmtsloth/"
+    "@id": "https://chensimin.site/publication/example/2022_ase_-deepperform/"
   },
-  "headline": "NMTSloth: Understanding and Testing Efficiency Degradation of Neural Machine Translation Systems",
+  "headline": "DeepPerform: An Efficient Approach for Performance Testing of Resource-Constrained Neural Networks",
   
-  "datePublished": "2020-06-14T00:00:00Z",
-  "dateModified": "2022-06-14T00:00:00Z",
+  "datePublished": "2022-09-01T00:00:00Z",
+  "dateModified": "2022-08-30T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -361,7 +361,7 @@
       "url": "https://chensimin.site/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Neural Machine Translation (NMT) systems have received much recent attention due to their human-level accuracy. While existing works mostly focus on either improving accuracy or testing accuracy robustness, the computation efficiency of NMT systems, which is of paramount importance due to often vast translation demands and real-time requirements, has surprisingly received little attention. In this paper, we make the first attempt in understanding and testing potential computation efficiency robustness in state-of-the-art NMT systems. By analyzing the working mechanism and implementation of 1455 publicly-accessible NMT systems, we observe a fundamental property that could be manipulated in an adversarial manner to significantly reduce computation efficiency. An interesting observation is that the computation efficiency of NMT systems is determined by the output length instead of the input, where the output length depends on two factors i.e., an often sufficiently large yet pessimistic pre-configured threshold controlling the max number of iterations, and a runtime generated end of sentence (EOS) token. Our key motivation is to generate test inputs that could sufficiently delay the generation of EOS such that NMT systems would have to go through enough iterations to satisfy the pre-configured threshold. We present NMTSloth which develops a gradient-guided technique that searches for a minimal and unnoticeable perturbation at character-level, token-level, and structure-level, which sufficiently delay the appearance of EOS and force these inputs to reach the naturally-unreachable threshold. To demonstrate the effectiveness of NMTSloth, we conduct a systematic evaluation on three public-available NMT systems. Experimental results show that NMTSloth can increase NMT systems' response latency and energy consumption by 85% to 3153% and 86% to 3052%, respectively, by perturbing just one to three tokens in any input sentences."
+  "description": "Today, an increasing number of Adaptive Deep Neural Networks (AdNNs) are being used to make decisions on resource-constrained embedded devices. We observe that, similar to traditional software, redundant computations exist in AdNNs, resulting in considerable performance degradation. The performance degradation in AdNNs is dependent on the input workloads, and is referred to as input-dependent performance bottlenecks (IDPBs). To ensure an AdNN satisfies the performance requirements of real-time applications, it is essential to conduct performance testing to detect IDPBs in the AdNN.  Existing neural network testing methods are primarily concerned with correctness testing, which does not involve performance testing. To fill this gap, we propose \\tool, a scalable approach to generate test samples to detect the IDPB of AdNNs. We first demonstrate how the problem of generating performance test samples detecting IDPBs can be formulated as an optimization problem. Following that, we demonstrate how tool efficiently handles the optimization problem by learning and estimating the distribution of AdNNs' computational consumption. We evaluate \\tool on three widely used datasets against five popular AdNN models. The results show that \\tool generates test samples that cause more severe performance degradation~(FLOPs increase up to 552\\%). Furthermore, \\tool is substantially more efficient than the baseline methods in terms of generating test inputs (runtime overhead only 6–10 milliseconds)."
 }
 </script>
 
@@ -372,7 +372,7 @@
   
 
 
-  <title>NMTSloth: Understanding and Testing Efficiency Degradation of Neural Machine Translation Systems | Simin Chen</title>
+  <title>DeepPerform: An Efficient Approach for Performance Testing of Resource-Constrained Neural Networks | Simin Chen</title>
 
   
   
@@ -391,7 +391,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="b1e8ca2806f818b4478066734c631560" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="d3f4ce304141e4797eb3b1965fd87204" >
 
   
   
@@ -764,7 +764,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>NMTSloth: Understanding and Testing Efficiency Degradation of Neural Machine Translation Systems</h1>
+  <h1>DeepPerform: An Efficient Approach for Performance Testing of Resource-Constrained Neural Networks</h1>
 
   
 
@@ -783,9 +783,8 @@
 
   <span >
       Simin Chen</span>, <span >
-      Cong Liu</span>, <span >
       Mirazul Haque</span>, <span >
-      Zihe Song</span>, <span >
+      Cong Liu</span>, <span >
       Wei Yang</span>
   </div>
   
@@ -797,7 +796,7 @@
     
       
     
-    June, 2022
+    August, 2022
   </span>
   
 
@@ -877,7 +876,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Neural Machine Translation (NMT) systems have received much recent attention due to their human-level accuracy. While existing works mostly focus on either improving accuracy or testing accuracy robustness, the computation efficiency of NMT systems, which is of paramount importance due to often vast translation demands and real-time requirements, has surprisingly received little attention. In this paper, we make the first attempt in understanding and testing potential computation efficiency robustness in state-of-the-art NMT systems. By analyzing the working mechanism and implementation of 1455 publicly-accessible NMT systems, we observe a fundamental property that could be manipulated in an adversarial manner to significantly reduce computation efficiency. An interesting observation is that the computation efficiency of NMT systems is determined by the output length instead of the input, where the output length depends on two factors i.e., an often sufficiently large yet pessimistic pre-configured threshold controlling the max number of iterations, and a runtime generated end of sentence (EOS) token. Our key motivation is to generate test inputs that could sufficiently delay the generation of EOS such that NMT systems would have to go through enough iterations to satisfy the pre-configured threshold. We present NMTSloth which develops a gradient-guided technique that searches for a minimal and unnoticeable perturbation at character-level, token-level, and structure-level, which sufficiently delay the appearance of EOS and force these inputs to reach the naturally-unreachable threshold. To demonstrate the effectiveness of NMTSloth, we conduct a systematic evaluation on three public-available NMT systems. Experimental results show that NMTSloth can increase NMT systems&rsquo; response latency and energy consumption by 85% to 3153% and 86% to 3052%, respectively, by perturbing just one to three tokens in any input sentences.</p>
+    <p class="pub-abstract">Today, an increasing number of Adaptive Deep Neural Networks (AdNNs) are being used to make decisions on resource-constrained embedded devices. We observe that, similar to traditional software, redundant computations exist in AdNNs, resulting in considerable performance degradation. The performance degradation in AdNNs is dependent on the input workloads, and is referred to as input-dependent performance bottlenecks (IDPBs). To ensure an AdNN satisfies the performance requirements of real-time applications, it is essential to conduct performance testing to detect IDPBs in the AdNN.  Existing neural network testing methods are primarily concerned with correctness testing, which does not involve performance testing. To fill this gap, we propose \tool, a scalable approach to generate test samples to detect the IDPB of AdNNs. We first demonstrate how the problem of generating performance test samples detecting IDPBs can be formulated as an optimization problem. Following that, we demonstrate how tool efficiently handles the optimization problem by learning and estimating the distribution of AdNNs&rsquo; computational consumption. We evaluate \tool on three widely used datasets against five popular AdNN models. The results show that \tool generates test samples that cause more severe performance degradation~(FLOPs increase up to 552%). Furthermore, \tool is substantially more efficient than the baseline methods in terms of generating test inputs (runtime overhead only 6–10 milliseconds).</p>
     
 
     
@@ -905,7 +904,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering</div>
+          <div class="col-12 col-md-9">Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering.</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -957,7 +956,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://chensimin.site/publication/example/2022_fse_-nmtsloth/&amp;text=NMTSloth:%20Understanding%20and%20Testing%20Efficiency%20Degradation%20of%20Neural%20Machine%20Translation%20Systems" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://chensimin.site/publication/example/2022_ase_-deepperform/&amp;text=DeepPerform:%20An%20Efficient%20Approach%20for%20Performance%20Testing%20of%20Resource-Constrained%20Neural%20Networks" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -970,7 +969,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://chensimin.site/publication/example/2022_fse_-nmtsloth/&amp;t=NMTSloth:%20Understanding%20and%20Testing%20Efficiency%20Degradation%20of%20Neural%20Machine%20Translation%20Systems" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://chensimin.site/publication/example/2022_ase_-deepperform/&amp;t=DeepPerform:%20An%20Efficient%20Approach%20for%20Performance%20Testing%20of%20Resource-Constrained%20Neural%20Networks" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -983,7 +982,7 @@
       
       
       <li>
-        <a href="mailto:?subject=NMTSloth:%20Understanding%20and%20Testing%20Efficiency%20Degradation%20of%20Neural%20Machine%20Translation%20Systems&amp;body=https://chensimin.site/publication/example/2022_fse_-nmtsloth/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=DeepPerform:%20An%20Efficient%20Approach%20for%20Performance%20Testing%20of%20Resource-Constrained%20Neural%20Networks&amp;body=https://chensimin.site/publication/example/2022_ase_-deepperform/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -996,7 +995,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://chensimin.site/publication/example/2022_fse_-nmtsloth/&amp;title=NMTSloth:%20Understanding%20and%20Testing%20Efficiency%20Degradation%20of%20Neural%20Machine%20Translation%20Systems" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://chensimin.site/publication/example/2022_ase_-deepperform/&amp;title=DeepPerform:%20An%20Efficient%20Approach%20for%20Performance%20Testing%20of%20Resource-Constrained%20Neural%20Networks" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1009,7 +1008,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=NMTSloth:%20Understanding%20and%20Testing%20Efficiency%20Degradation%20of%20Neural%20Machine%20Translation%20Systems%20https://chensimin.site/publication/example/2022_fse_-nmtsloth/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=DeepPerform:%20An%20Efficient%20Approach%20for%20Performance%20Testing%20of%20Resource-Constrained%20Neural%20Networks%20https://chensimin.site/publication/example/2022_ase_-deepperform/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1022,7 +1021,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://chensimin.site/publication/example/2022_fse_-nmtsloth/&amp;title=NMTSloth:%20Understanding%20and%20Testing%20Efficiency%20Degradation%20of%20Neural%20Machine%20Translation%20Systems" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://chensimin.site/publication/example/2022_ase_-deepperform/&amp;title=DeepPerform:%20An%20Efficient%20Approach%20for%20Performance%20Testing%20of%20Resource-Constrained%20Neural%20Networks" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1041,12 +1040,6 @@
 
 
   
-  
-    
-
-
-
-
   
     
 
