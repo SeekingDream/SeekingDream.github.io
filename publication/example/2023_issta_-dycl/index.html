@@ -77,10 +77,10 @@
   
     
   
-  <meta name="description" content="Deep neural networks (DNNs) have been widely applied in the software development process to automatically learn patterns from massive data. However, many applications still make decisions based on rules that are manually crafted and verified by domain experts due to safety or security concerns. In this paper, we aim to close the gap between DNNs and rule-based systems by automating the rule generation process via extracting knowledge from well-trained DNNs. Existing techniques with similar purposes either rely on specific DNNs input instances or use inherently unstable random sampling of the input space. Therefore, these approaches either limit the exploration area to a local decision-space of the DNNs or fail to converge to a consistent set of rules. The resulting rules thus lack representativeness and stability. In this paper, we address the two aforementioned shortcomings by discovering a global property of the DNNs and use it to remodel the DNNs decision-boundary. We name this property as the activation probability, and show that this property is stable. With this insight, we propose an approach named DENAS including a novel rule-generation algorithm. Our proposed algorithm approximates the non-linear decision boundary of DNNs by iteratively superimposing a linearized optimization function. We evaluate the representativeness, stability, and accuracy of DENAS against five state-of-the-art techniques (LEMNA, Gradient, IG, DeepTaylor, and DTExtract) on three software engineering and security applications Binary analysis, PDF malware detection, and Android malware detection. Our results show that DENAS can generate more representative rules consistently in a more stable manner over other approaches. We further offer case studies that demonstrate the applications of DENAS such as debugging faults in the DNNs and generating signatures that can detect zero-day malware." />
+  <meta name="description" content="The deep learning (DL) compiler is a fundamental piece of infrastructure that enables the deployment of deep neural networks on various hardware platforms (e.g., mobile devices and Raspberry Pi). A DL compiler translates DNN programs written with high-level DL frameworks (e.g., PyTorch and TensorFlow) into portable executables; deployed host programs can then flexibly run these executables. Existing DL compilers treat neural network programs as static data flow graphs, which presume a pre-determined DNN model architecture. However, this assumption does not hold in modern dynamic neural networks (DyNNs). As a result, existing DL compilers cannot compile DyNNs into correct executables. To bridge this gap, we propose DyCL, a flexible approach that enables existing DL compilers for compiling DyNNs. DyCL handles the dynamic nature of the DyNNs by introducing a compilation mechanism that redistributes the original programs&#39; control and data flow during compilation. Specifically, DyCL applies program analysis and transformation techniques to transform an dynamic neural network into multiple sub-neural networks. Each sub-neural network does not contain conditional statements and is compiled separately. DyCL then synthesizes a host API to model the control flow of the DyNNs and invocations of the sub-neural networks. Our evaluation demonstrates that DyCL can 100\% successfully compile all dynamic neural networks and the compiled executables run $1.12\times$ to $20.21\times$  faster than the original DyNNs runs on the general-purpose DL frameworks." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://chensimin.site/publication/example/2020_fse_denas/" />
+  <link rel="alternate" hreflang="en-us" href="https://chensimin.site/publication/example/2023_issta_-dycl/" />
 
   
   
@@ -282,7 +282,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://chensimin.site/publication/example/2020_fse_denas/" />
+  <link rel="canonical" href="https://chensimin.site/publication/example/2023_issta_-dycl/" />
 
   
   
@@ -308,18 +308,18 @@
     <meta property="twitter:creator" content="@wowchemy" />
   
   <meta property="og:site_name" content="Simin Chen" />
-  <meta property="og:url" content="https://chensimin.site/publication/example/2020_fse_denas/" />
-  <meta property="og:title" content="DENAS: automated rule generation by knowledge extraction from neural networks | Simin Chen" />
-  <meta property="og:description" content="Deep neural networks (DNNs) have been widely applied in the software development process to automatically learn patterns from massive data. However, many applications still make decisions based on rules that are manually crafted and verified by domain experts due to safety or security concerns. In this paper, we aim to close the gap between DNNs and rule-based systems by automating the rule generation process via extracting knowledge from well-trained DNNs. Existing techniques with similar purposes either rely on specific DNNs input instances or use inherently unstable random sampling of the input space. Therefore, these approaches either limit the exploration area to a local decision-space of the DNNs or fail to converge to a consistent set of rules. The resulting rules thus lack representativeness and stability. In this paper, we address the two aforementioned shortcomings by discovering a global property of the DNNs and use it to remodel the DNNs decision-boundary. We name this property as the activation probability, and show that this property is stable. With this insight, we propose an approach named DENAS including a novel rule-generation algorithm. Our proposed algorithm approximates the non-linear decision boundary of DNNs by iteratively superimposing a linearized optimization function. We evaluate the representativeness, stability, and accuracy of DENAS against five state-of-the-art techniques (LEMNA, Gradient, IG, DeepTaylor, and DTExtract) on three software engineering and security applications Binary analysis, PDF malware detection, and Android malware detection. Our results show that DENAS can generate more representative rules consistently in a more stable manner over other approaches. We further offer case studies that demonstrate the applications of DENAS such as debugging faults in the DNNs and generating signatures that can detect zero-day malware." /><meta property="og:image" content="https://chensimin.site/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://chensimin.site/publication/example/2023_issta_-dycl/" />
+  <meta property="og:title" content="DyCL: Dynamic Neural Network Compilation Via Program Rewriting  and Graph Optimization | Simin Chen" />
+  <meta property="og:description" content="The deep learning (DL) compiler is a fundamental piece of infrastructure that enables the deployment of deep neural networks on various hardware platforms (e.g., mobile devices and Raspberry Pi). A DL compiler translates DNN programs written with high-level DL frameworks (e.g., PyTorch and TensorFlow) into portable executables; deployed host programs can then flexibly run these executables. Existing DL compilers treat neural network programs as static data flow graphs, which presume a pre-determined DNN model architecture. However, this assumption does not hold in modern dynamic neural networks (DyNNs). As a result, existing DL compilers cannot compile DyNNs into correct executables. To bridge this gap, we propose DyCL, a flexible approach that enables existing DL compilers for compiling DyNNs. DyCL handles the dynamic nature of the DyNNs by introducing a compilation mechanism that redistributes the original programs&#39; control and data flow during compilation. Specifically, DyCL applies program analysis and transformation techniques to transform an dynamic neural network into multiple sub-neural networks. Each sub-neural network does not contain conditional statements and is compiled separately. DyCL then synthesizes a host API to model the control flow of the DyNNs and invocations of the sub-neural networks. Our evaluation demonstrates that DyCL can 100\% successfully compile all dynamic neural networks and the compiled executables run $1.12\times$ to $20.21\times$  faster than the original DyNNs runs on the general-purpose DL frameworks." /><meta property="og:image" content="https://chensimin.site/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://chensimin.site/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2020-11-09T00:00:00&#43;00:00"
+        content="2023-01-16T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2020-11-09T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-01-16T00:00:00&#43;00:00">
   
 
   
@@ -341,12 +341,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://chensimin.site/publication/example/2020_fse_denas/"
+    "@id": "https://chensimin.site/publication/example/2023_issta_-dycl/"
   },
-  "headline": "DENAS: automated rule generation by knowledge extraction from neural networks",
+  "headline": "DyCL: Dynamic Neural Network Compilation Via Program Rewriting  and Graph Optimization",
   
-  "datePublished": "2020-11-09T00:00:00Z",
-  "dateModified": "2020-11-09T00:00:00Z",
+  "datePublished": "2023-01-16T00:00:00Z",
+  "dateModified": "2023-01-16T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -361,7 +361,7 @@
       "url": "https://chensimin.site/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Deep neural networks (DNNs) have been widely applied in the software development process to automatically learn patterns from massive data. However, many applications still make decisions based on rules that are manually crafted and verified by domain experts due to safety or security concerns. In this paper, we aim to close the gap between DNNs and rule-based systems by automating the rule generation process via extracting knowledge from well-trained DNNs. Existing techniques with similar purposes either rely on specific DNNs input instances or use inherently unstable random sampling of the input space. Therefore, these approaches either limit the exploration area to a local decision-space of the DNNs or fail to converge to a consistent set of rules. The resulting rules thus lack representativeness and stability. In this paper, we address the two aforementioned shortcomings by discovering a global property of the DNNs and use it to remodel the DNNs decision-boundary. We name this property as the activation probability, and show that this property is stable. With this insight, we propose an approach named DENAS including a novel rule-generation algorithm. Our proposed algorithm approximates the non-linear decision boundary of DNNs by iteratively superimposing a linearized optimization function. We evaluate the representativeness, stability, and accuracy of DENAS against five state-of-the-art techniques (LEMNA, Gradient, IG, DeepTaylor, and DTExtract) on three software engineering and security applications Binary analysis, PDF malware detection, and Android malware detection. Our results show that DENAS can generate more representative rules consistently in a more stable manner over other approaches. We further offer case studies that demonstrate the applications of DENAS such as debugging faults in the DNNs and generating signatures that can detect zero-day malware."
+  "description": "The deep learning (DL) compiler is a fundamental piece of infrastructure that enables the deployment of deep neural networks on various hardware platforms (e.g., mobile devices and Raspberry Pi). A DL compiler translates DNN programs written with high-level DL frameworks (e.g., PyTorch and TensorFlow) into portable executables; deployed host programs can then flexibly run these executables. Existing DL compilers treat neural network programs as static data flow graphs, which presume a pre-determined DNN model architecture. However, this assumption does not hold in modern dynamic neural networks (DyNNs). As a result, existing DL compilers cannot compile DyNNs into correct executables. To bridge this gap, we propose DyCL, a flexible approach that enables existing DL compilers for compiling DyNNs. DyCL handles the dynamic nature of the DyNNs by introducing a compilation mechanism that redistributes the original programs' control and data flow during compilation. Specifically, DyCL applies program analysis and transformation techniques to transform an dynamic neural network into multiple sub-neural networks. Each sub-neural network does not contain conditional statements and is compiled separately. DyCL then synthesizes a host API to model the control flow of the DyNNs and invocations of the sub-neural networks. Our evaluation demonstrates that DyCL can 100\\% successfully compile all dynamic neural networks and the compiled executables run $1.12\\times$ to $20.21\\times$  faster than the original DyNNs runs on the general-purpose DL frameworks."
 }
 </script>
 
@@ -372,7 +372,7 @@
   
 
 
-  <title>DENAS: automated rule generation by knowledge extraction from neural networks | Simin Chen</title>
+  <title>DyCL: Dynamic Neural Network Compilation Via Program Rewriting  and Graph Optimization | Simin Chen</title>
 
   
   
@@ -391,7 +391,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="2417cbf7ca800b199360653700190689" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="97b3b5bd4f9cdaf538ec2c8eb545eea9" >
 
   
   
@@ -764,7 +764,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>DENAS: automated rule generation by knowledge extraction from neural networks</h1>
+  <h1>DyCL: Dynamic Neural Network Compilation Via Program Rewriting  and Graph Optimization</h1>
 
   
 
@@ -783,9 +783,7 @@
 
   <span >
       Simin Chen</span>, <span >
-      Soroush Bateni</span>, <span >
-      Sampath Grandhi</span>, <span >
-      Xiaodi Li</span>, <span >
+      Shiyi Wei</span>, <span >
       Cong Liu</span>, <span >
       Wei Yang</span>
   </div>
@@ -798,7 +796,7 @@
     
       
     
-    November, 2020
+    January, 2023
   </span>
   
 
@@ -821,63 +819,6 @@
 
 
 
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/SeekingDream/denas_fse2020/blob/master/DENAS_FSE20.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/SeekingDream/denas_fse2020" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header" href="/project/denas/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/https://doi.org/10.1145/3368089.3409733" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-</div>
-
 
   
 </div>
@@ -888,7 +829,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Deep neural networks (DNNs) have been widely applied in the software development process to automatically learn patterns from massive data. However, many applications still make decisions based on rules that are manually crafted and verified by domain experts due to safety or security concerns. In this paper, we aim to close the gap between DNNs and rule-based systems by automating the rule generation process via extracting knowledge from well-trained DNNs. Existing techniques with similar purposes either rely on specific DNNs input instances or use inherently unstable random sampling of the input space. Therefore, these approaches either limit the exploration area to a local decision-space of the DNNs or fail to converge to a consistent set of rules. The resulting rules thus lack representativeness and stability. In this paper, we address the two aforementioned shortcomings by discovering a global property of the DNNs and use it to remodel the DNNs decision-boundary. We name this property as the activation probability, and show that this property is stable. With this insight, we propose an approach named DENAS including a novel rule-generation algorithm. Our proposed algorithm approximates the non-linear decision boundary of DNNs by iteratively superimposing a linearized optimization function. We evaluate the representativeness, stability, and accuracy of DENAS against five state-of-the-art techniques (LEMNA, Gradient, IG, DeepTaylor, and DTExtract) on three software engineering and security applications Binary analysis, PDF malware detection, and Android malware detection. Our results show that DENAS can generate more representative rules consistently in a more stable manner over other approaches. We further offer case studies that demonstrate the applications of DENAS such as debugging faults in the DNNs and generating signatures that can detect zero-day malware.</p>
+    <p class="pub-abstract">The deep learning (DL) compiler is a fundamental piece of infrastructure that enables the deployment of deep neural networks on various hardware platforms (e.g., mobile devices and Raspberry Pi). A DL compiler translates DNN programs written with high-level DL frameworks (e.g., PyTorch and TensorFlow) into portable executables; deployed host programs can then flexibly run these executables. Existing DL compilers treat neural network programs as static data flow graphs, which presume a pre-determined DNN model architecture. However, this assumption does not hold in modern dynamic neural networks (DyNNs). As a result, existing DL compilers cannot compile DyNNs into correct executables. To bridge this gap, we propose DyCL, a flexible approach that enables existing DL compilers for compiling DyNNs. DyCL handles the dynamic nature of the DyNNs by introducing a compilation mechanism that redistributes the original programs&rsquo; control and data flow during compilation. Specifically, DyCL applies program analysis and transformation techniques to transform an dynamic neural network into multiple sub-neural networks. Each sub-neural network does not contain conditional statements and is compiled separately. DyCL then synthesizes a host API to model the control flow of the DyNNs and invocations of the sub-neural networks. Our evaluation demonstrates that DyCL can 100% successfully compile all dynamic neural networks and the compiled executables run $1.12\times$ to $20.21\times$  faster than the original DyNNs runs on the general-purpose DL frameworks.</p>
     
 
     
@@ -916,7 +857,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering</div>
+          <div class="col-12 col-md-9">Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -947,9 +888,11 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/explanable-ml/">Explanable ML</a>
+  <a class="badge badge-light" href="/tag/program-analysis/">Program Analysis</a>
   
-  <a class="badge badge-light" href="/tag/software-sngineering/">Software Sngineering</a>
+  <a class="badge badge-light" href="/tag/software-engineering/">Software Engineering</a>
+  
+  <a class="badge badge-light" href="/tag/ai/">AI</a>
   
 </div>
 
@@ -966,7 +909,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://chensimin.site/publication/example/2020_fse_denas/&amp;text=DENAS:%20automated%20rule%20generation%20by%20knowledge%20extraction%20from%20neural%20networks" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://chensimin.site/publication/example/2023_issta_-dycl/&amp;text=DyCL:%20Dynamic%20Neural%20Network%20Compilation%20Via%20Program%20Rewriting%20%20and%20Graph%20Optimization" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -979,7 +922,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://chensimin.site/publication/example/2020_fse_denas/&amp;t=DENAS:%20automated%20rule%20generation%20by%20knowledge%20extraction%20from%20neural%20networks" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://chensimin.site/publication/example/2023_issta_-dycl/&amp;t=DyCL:%20Dynamic%20Neural%20Network%20Compilation%20Via%20Program%20Rewriting%20%20and%20Graph%20Optimization" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -992,7 +935,7 @@
       
       
       <li>
-        <a href="mailto:?subject=DENAS:%20automated%20rule%20generation%20by%20knowledge%20extraction%20from%20neural%20networks&amp;body=https://chensimin.site/publication/example/2020_fse_denas/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=DyCL:%20Dynamic%20Neural%20Network%20Compilation%20Via%20Program%20Rewriting%20%20and%20Graph%20Optimization&amp;body=https://chensimin.site/publication/example/2023_issta_-dycl/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1005,7 +948,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://chensimin.site/publication/example/2020_fse_denas/&amp;title=DENAS:%20automated%20rule%20generation%20by%20knowledge%20extraction%20from%20neural%20networks" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://chensimin.site/publication/example/2023_issta_-dycl/&amp;title=DyCL:%20Dynamic%20Neural%20Network%20Compilation%20Via%20Program%20Rewriting%20%20and%20Graph%20Optimization" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1018,7 +961,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=DENAS:%20automated%20rule%20generation%20by%20knowledge%20extraction%20from%20neural%20networks%20https://chensimin.site/publication/example/2020_fse_denas/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=DyCL:%20Dynamic%20Neural%20Network%20Compilation%20Via%20Program%20Rewriting%20%20and%20Graph%20Optimization%20https://chensimin.site/publication/example/2023_issta_-dycl/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1031,7 +974,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://chensimin.site/publication/example/2020_fse_denas/&amp;title=DENAS:%20automated%20rule%20generation%20by%20knowledge%20extraction%20from%20neural%20networks" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://chensimin.site/publication/example/2023_issta_-dycl/&amp;title=DyCL:%20Dynamic%20Neural%20Network%20Compilation%20Via%20Program%20Rewriting%20%20and%20Graph%20Optimization" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1050,18 +993,6 @@
 
 
   
-  
-    
-
-
-
-
-  
-    
-
-
-
-
   
     
 
