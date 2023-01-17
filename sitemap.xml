@@ -4,9 +4,9 @@
   
   
   <url>
-    <loc>https://chensimin.site/talk/example-talk/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://chensimin.site/events/example/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://chensimin.site/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://chensimin.site/events/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://chensimin.site/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -69,6 +69,12 @@
     <loc>https://chensimin.site/post/getting-started/eccv2022/</loc><lastmod>2022-04-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://chensimin.site/post/getting-started/icse2022_volunteer/</loc><lastmod>2022-04-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://chensimin.site/service/</loc><lastmod>2022-04-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://chensimin.site/service/getting-started/pc/</loc><lastmod>2022-04-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://chensimin.site/service/getting-started/sub_reviewer/</loc><lastmod>2022-04-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://chensimin.site/tag/adversarial-ml/</loc><lastmod>2022-03-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
