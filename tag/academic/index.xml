@@ -5,7 +5,7 @@
     <link>https://chensimin.site/tag/academic/</link>
       <atom:link href="https://chensimin.site/tag/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://chensimin.site/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>July 2023 -- Serve as a PC member for AAAI 2024.</title>
-      <link>https://chensimin.site/post/getting-started/aaai_2024_reviewer/</link>
-      <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/aaai_2024_reviewer/</guid>
+      <title>July 2023 -- Serve as a Reviewer for CVPR 2024.</title>
+      <link>https://chensimin.site/post/getting-started/cvpr_2024_reviewer/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://chensimin.site/post/getting-started/cvpr_2024_reviewer/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -105,10 +105,10 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     </item>
     
     <item>
-      <title>July 2023 -- Serve as a Reviewer for CVPR 2024.</title>
-      <link>https://chensimin.site/post/getting-started/cvpr_2024_reviewer/</link>
+      <title>July 2023 -- Serve as a PC member for AAAI 2024.</title>
+      <link>https://chensimin.site/post/getting-started/aaai_2024_reviewer/</link>
       <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/cvpr_2024_reviewer/</guid>
+      <guid>https://chensimin.site/post/getting-started/aaai_2024_reviewer/</guid>
       <description>&lt;!-- 
 ## Overview
 
