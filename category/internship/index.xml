@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Internship | Simin Chen</title>
-    <link>https://chensimin.site/category/internship/</link>
-      <atom:link href="https://chensimin.site/category/internship/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://siminchen.site/category/internship/</link>
+      <atom:link href="https://siminchen.site/category/internship/index.xml" rel="self" type="application/rss+xml" />
     <description>Internship</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://chensimin.site/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://siminchen.site/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Internship</title>
-      <link>https://chensimin.site/category/internship/</link>
+      <link>https://siminchen.site/category/internship/</link>
     </image>
     
     <item>
       <title>May 2023 -- I will take my summer internship at Amazon, under the supervision of Michael Hicks and Emina Torlak.</title>
-      <link>https://chensimin.site/post/getting-started/amazon/</link>
+      <link>https://siminchen.site/post/getting-started/amazon/</link>
       <pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/amazon/</guid>
+      <guid>https://siminchen.site/post/getting-started/amazon/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -106,9 +106,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>March 2021 -- Internship in Microsoft Research.</title>
-      <link>https://chensimin.site/post/getting-started/microsoft/</link>
+      <link>https://siminchen.site/post/getting-started/microsoft/</link>
       <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/microsoft/</guid>
+      <guid>https://siminchen.site/post/getting-started/microsoft/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -198,9 +198,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>January 2020 -- Internship in NEC America.</title>
-      <link>https://chensimin.site/post/getting-started/nec/</link>
+      <link>https://siminchen.site/post/getting-started/nec/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/nec/</guid>
+      <guid>https://siminchen.site/post/getting-started/nec/</guid>
       <description>&lt;!-- 
 ## Overview
 

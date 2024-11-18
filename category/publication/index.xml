@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication | Simin Chen</title>
-    <link>https://chensimin.site/category/publication/</link>
-      <atom:link href="https://chensimin.site/category/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://siminchen.site/category/publication/</link>
+      <atom:link href="https://siminchen.site/category/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://chensimin.site/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://siminchen.site/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publication</title>
-      <link>https://chensimin.site/category/publication/</link>
+      <link>https://siminchen.site/category/publication/</link>
     </image>
     
     <item>
       <title>April 2024 -- One paper is accepted to ESEC/FSE 2024 after major revision.</title>
-      <link>https://chensimin.site/post/getting-started/fse2024_decix/</link>
+      <link>https://siminchen.site/post/getting-started/fse2024_decix/</link>
       <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/fse2024_decix/</guid>
+      <guid>https://siminchen.site/post/getting-started/fse2024_decix/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -106,9 +106,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>Jan 2024 -- One first authored paper is directly accepted to ESEC/FSE 2024.</title>
-      <link>https://chensimin.site/post/getting-started/fse2024_ppm/</link>
+      <link>https://siminchen.site/post/getting-started/fse2024_ppm/</link>
       <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/fse2024_ppm/</guid>
+      <guid>https://siminchen.site/post/getting-started/fse2024_ppm/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -198,9 +198,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>Jan 2024 -- Serve as the reviewer of the 17th Asian Conference on Computer Vision (ACCV 2024)</title>
-      <link>https://chensimin.site/post/getting-started/accv2024_reviewer/</link>
+      <link>https://siminchen.site/post/getting-started/accv2024_reviewer/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/accv2024_reviewer/</guid>
+      <guid>https://siminchen.site/post/getting-started/accv2024_reviewer/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -290,9 +290,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>Jan 2024 -- Serve as the reviewer of the European Conference on Computer Vision 2024 (ECCV 2024)</title>
-      <link>https://chensimin.site/post/getting-started/eccv2024_reviewer/</link>
+      <link>https://siminchen.site/post/getting-started/eccv2024_reviewer/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/eccv2024_reviewer/</guid>
+      <guid>https://siminchen.site/post/getting-started/eccv2024_reviewer/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -382,9 +382,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>May 2023 -- One paper has been accepted to ACL 2023.</title>
-      <link>https://chensimin.site/post/getting-started/acl2023_paper/</link>
+      <link>https://siminchen.site/post/getting-started/acl2023_paper/</link>
       <pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/acl2023_paper/</guid>
+      <guid>https://siminchen.site/post/getting-started/acl2023_paper/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -474,9 +474,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>May 2023 -- One paper has been accepted to Interspeech 2023.</title>
-      <link>https://chensimin.site/post/getting-started/interspeech-2023_paper/</link>
+      <link>https://siminchen.site/post/getting-started/interspeech-2023_paper/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/interspeech-2023_paper/</guid>
+      <guid>https://siminchen.site/post/getting-started/interspeech-2023_paper/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -566,9 +566,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>February 2023 -- Two papers have been accepted to CVPR 2023.</title>
-      <link>https://chensimin.site/post/getting-started/cvpr2023_paper/</link>
+      <link>https://siminchen.site/post/getting-started/cvpr2023_paper/</link>
       <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/cvpr2023_paper/</guid>
+      <guid>https://siminchen.site/post/getting-started/cvpr2023_paper/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -658,9 +658,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>January 2023 -- One paper is accepted to ISSTA 2023.</title>
-      <link>https://chensimin.site/post/getting-started/issta2023_paper/</link>
+      <link>https://siminchen.site/post/getting-started/issta2023_paper/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/issta2023_paper/</guid>
+      <guid>https://siminchen.site/post/getting-started/issta2023_paper/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -750,9 +750,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>April 2022 -- One paper is accepted to ASE 2022.</title>
-      <link>https://chensimin.site/post/getting-started/ase2022_paper/</link>
+      <link>https://siminchen.site/post/getting-started/ase2022_paper/</link>
       <pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/ase2022_paper/</guid>
+      <guid>https://siminchen.site/post/getting-started/ase2022_paper/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -842,9 +842,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>June 2022 -- One paper is accepted to ESEC/FSE 2022.</title>
-      <link>https://chensimin.site/post/getting-started/fse22_nmtsloth/</link>
+      <link>https://siminchen.site/post/getting-started/fse22_nmtsloth/</link>
       <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/fse22_nmtsloth/</guid>
+      <guid>https://siminchen.site/post/getting-started/fse22_nmtsloth/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -934,9 +934,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>April 2022 -- One paper is accepted to IJCAI 2022.</title>
-      <link>https://chensimin.site/post/getting-started/ijcai2022/</link>
+      <link>https://siminchen.site/post/getting-started/ijcai2022/</link>
       <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/ijcai2022/</guid>
+      <guid>https://siminchen.site/post/getting-started/ijcai2022/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -1026,9 +1026,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>April 2022 -- Serve as a student volunteer in ICSE 2022</title>
-      <link>https://chensimin.site/post/getting-started/icse2022_volunteer/</link>
+      <link>https://siminchen.site/post/getting-started/icse2022_volunteer/</link>
       <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/icse2022_volunteer/</guid>
+      <guid>https://siminchen.site/post/getting-started/icse2022_volunteer/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -1118,9 +1118,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>Program Committee Member -- CVPR 2024, AAAI 2024, ICA3PP 2023, ICCV 2023, MSR 2023, CVPR 2023, AAAI 2023, WACV 2022, ECCV 2022</title>
-      <link>https://chensimin.site/service/getting-started/pc/</link>
+      <link>https://siminchen.site/service/getting-started/pc/</link>
       <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/service/getting-started/pc/</guid>
+      <guid>https://siminchen.site/service/getting-started/pc/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -1210,9 +1210,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>Sub-Reviewer -- ISSRE 2023, ASE 2023, ICSE 2023, ICST 2023, ASE 2022, ICST 2022, ICSE 2021</title>
-      <link>https://chensimin.site/service/getting-started/sub_reviewer/</link>
+      <link>https://siminchen.site/service/getting-started/sub_reviewer/</link>
       <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/service/getting-started/sub_reviewer/</guid>
+      <guid>https://siminchen.site/service/getting-started/sub_reviewer/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -1302,9 +1302,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>March 2022 -- One paper is accepted to CVPR 2022.</title>
-      <link>https://chensimin.site/post/getting-started/cvpr2022_paper/</link>
+      <link>https://siminchen.site/post/getting-started/cvpr2022_paper/</link>
       <pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/cvpr2022_paper/</guid>
+      <guid>https://siminchen.site/post/getting-started/cvpr2022_paper/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -1394,9 +1394,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>November 2020 -- Serve as an additional reviewers in ICSE 2021 technical track.</title>
-      <link>https://chensimin.site/post/getting-started/icse2021_reviewer/</link>
+      <link>https://siminchen.site/post/getting-started/icse2021_reviewer/</link>
       <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/icse2021_reviewer/</guid>
+      <guid>https://siminchen.site/post/getting-started/icse2021_reviewer/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -1486,9 +1486,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>May 2020 -- One paper is accepted to ESEC/FSE 2020.</title>
-      <link>https://chensimin.site/post/getting-started/denas/</link>
+      <link>https://siminchen.site/post/getting-started/denas/</link>
       <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/post/getting-started/denas/</guid>
+      <guid>https://siminchen.site/post/getting-started/denas/</guid>
       <description>&lt;!-- 
 ## Overview
 

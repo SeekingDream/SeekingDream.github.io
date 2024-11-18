@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Simin Chen</title>
-    <link>https://chensimin.site/service/</link>
-      <atom:link href="https://chensimin.site/service/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://siminchen.site/service/</link>
+      <atom:link href="https://siminchen.site/service/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://chensimin.site/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://siminchen.site/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
-      <link>https://chensimin.site/service/</link>
+      <link>https://siminchen.site/service/</link>
     </image>
     
     <item>
       <title>Program Committee Member -- CVPR 2024, AAAI 2024, ICA3PP 2023, ICCV 2023, MSR 2023, CVPR 2023, AAAI 2023, WACV 2022, ECCV 2022</title>
-      <link>https://chensimin.site/service/getting-started/pc/</link>
+      <link>https://siminchen.site/service/getting-started/pc/</link>
       <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/service/getting-started/pc/</guid>
+      <guid>https://siminchen.site/service/getting-started/pc/</guid>
       <description>&lt;!-- 
 ## Overview
 
@@ -106,9 +106,9 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     
     <item>
       <title>Sub-Reviewer -- ISSRE 2023, ASE 2023, ICSE 2023, ICST 2023, ASE 2022, ICST 2022, ICSE 2021</title>
-      <link>https://chensimin.site/service/getting-started/sub_reviewer/</link>
+      <link>https://siminchen.site/service/getting-started/sub_reviewer/</link>
       <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://chensimin.site/service/getting-started/sub_reviewer/</guid>
+      <guid>https://siminchen.site/service/getting-started/sub_reviewer/</guid>
       <description>&lt;!-- 
 ## Overview
 
