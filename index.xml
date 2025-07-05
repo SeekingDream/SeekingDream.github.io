@@ -33,6 +33,82 @@
     </item>
     
     <item>
+      <title>DyCodeEval: Dynamic Benchmarking of Reasoning Capabilities in Code Large Language Models Under Data Contamination</title>
+      <link>https://siminchen.site/publication/example/2025_dycodeeval_icml/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://siminchen.site/publication/example/2025_dycodeeval_icml/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SOK: Efficiency Robustness of Dynamic Deep Learning Systems</title>
+      <link>https://siminchen.site/publication/example/2025_dysurvey_usenix/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://siminchen.site/publication/example/2025_dysurvey_usenix/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FDPT: Federated Discrete Prompt Tuning for Black-Box Visual-Language Models</title>
+      <link>https://siminchen.site/publication/example/2025_iccv_-fdpt/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://siminchen.site/publication/example/2025_iccv_-fdpt/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Medusa: A Framework for Collaborative Development of Foundation Models with Automated Parameter Ownership Assignment</title>
+      <link>https://siminchen.site/publication/example/2025_fse_medusa/</link>
+      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://siminchen.site/publication/example/2025_fse_medusa/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>October 2024 -- Serve as a reviewer of CVPR 2025.</title>
       <link>https://siminchen.site/post/getting-started/cvpr_2025_reviewer/</link>
       <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
@@ -2964,7 +3040,7 @@ Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-modules/blob/
     </item>
     
     <item>
-      <title>Program Committee Member -- CVPR 2024, AAAI 2024, ICA3PP 2023, ICCV 2023, MSR 2023, CVPR 2023, AAAI 2023, WACV 2022, ECCV 2022</title>
+      <title>Program Committee Member -- NeurIPS 2025, ICML 2025, ICCV 2025, ACL 2025, ASE 2024, CVPR 2024, AAAI 2024, ICA3PP 2023, ICCV 2023, MSR 2023, CVPR 2023, AAAI 2023, WACV 2022, ECCV 2022</title>
       <link>https://siminchen.site/service/getting-started/pc/</link>
       <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://siminchen.site/service/getting-started/pc/</guid>
