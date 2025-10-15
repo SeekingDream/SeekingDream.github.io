@@ -10,7 +10,19 @@
   <url>
     <loc>https://siminchen.site/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://siminchen.site/publication-type/1/</loc><lastmod>2025-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://siminchen.site/publication-type/1/</loc><lastmod>2025-10-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://siminchen.site/tag/adversarial-ml/</loc><lastmod>2025-10-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://siminchen.site/tag/machine-learning-system/</loc><lastmod>2025-10-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://siminchen.site/publication_types/</loc><lastmod>2025-10-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://siminchen.site/publication/</loc><lastmod>2025-10-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://siminchen.site/tags/</loc><lastmod>2025-10-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://siminchen.site/publication/example/2026_dlcompilerbd_sp/</loc><lastmod>2025-10-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://siminchen.site/tag/code-generation/</loc><lastmod>2025-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -22,15 +34,9 @@
   <url>
     <loc>https://siminchen.site/tag/efficiency-attacks/</loc><lastmod>2025-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://siminchen.site/publication_types/</loc><lastmod>2025-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://siminchen.site/publication/</loc><lastmod>2025-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://siminchen.site/tag/robustness/</loc><lastmod>2025-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://siminchen.site/publication/example/2025_dysurvey_usenix/</loc><lastmod>2025-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://siminchen.site/tags/</loc><lastmod>2025-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://siminchen.site/publication/example/2025_iccv_-fdpt/</loc><lastmod>2025-06-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -87,8 +93,6 @@
     <loc>https://siminchen.site/category/award/</loc><lastmod>2023-06-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://siminchen.site/post/getting-started/issta23_travel/</loc><lastmod>2023-06-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://siminchen.site/tag/adversarial-ml/</loc><lastmod>2023-05-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://siminchen.site/publication/example/2023_acl_same/</loc><lastmod>2023-05-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
