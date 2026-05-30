@@ -33,9 +33,17 @@
     </item>
     
     <item>
+      <title>May 2026 -- Our paper received the Distinguished Paper Award at IEEE S&amp;P 2026!</title>
+      <link>https://siminchen.site/post/getting-started/sp2026_distinguished_paper/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://siminchen.site/post/getting-started/sp2026_distinguished_paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Your Compiler is Backdooring Your Model: Understanding and Exploiting Compilation Inconsistency Vulnerabilities in Deep Learning Compilers</title>
       <link>https://siminchen.site/publication/example/2026_dlcompilerbd_sp/</link>
-      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
       <guid>https://siminchen.site/publication/example/2026_dlcompilerbd_sp/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -49,6 +57,54 @@
 &lt;/div&gt;
 &lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>IAG: Input-aware Backdoor Attack on VLM-based Visual Grounding</title>
+      <link>https://siminchen.site/publication/example/2026_cvpr_iag/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://siminchen.site/publication/example/2026_cvpr_iag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FedRE: A Representation Entanglement Framework for Model-Heterogeneous Federated Learning</title>
+      <link>https://siminchen.site/publication/example/2026_cvpr_fedre/</link>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://siminchen.site/publication/example/2026_cvpr_fedre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CodeSense: a Real-World Benchmark and Dataset for Code Semantic Reasoning</title>
+      <link>https://siminchen.site/publication/example/2026_iclr_codesense/</link>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://siminchen.site/publication/example/2026_iclr_codesense/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Assistant to Independent Developer — Are GPTs Ready for Software Development?</title>
+      <link>https://siminchen.site/publication/example/2026_iclr_gptdev/</link>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://siminchen.site/publication/example/2026_iclr_gptdev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PARD: Enhancing Goodput for Inference Pipeline via Proactive Request Dropping</title>
+      <link>https://siminchen.site/publication/example/2026_eurosys_pard/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://siminchen.site/publication/example/2026_eurosys_pard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TITLE_TODO -- please fill in the EMNLP 2025 paper title</title>
+      <link>https://siminchen.site/publication/example/2025_emnlp/</link>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://siminchen.site/publication/example/2025_emnlp/</guid>
+      <description></description>
     </item>
     
     <item>
